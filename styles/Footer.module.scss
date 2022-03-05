@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: max-content;
+    overflow: hidden;
+    background-image: linear-gradient(to right bottom, rgb(117,230,218),rgb(22,14,57) 80%);
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        color: white;
+        .cols{
+       display: flex;
+       align-items:flex-start;
+       justify-content: center;
+      
+       .item{
+       flex: 1;
+       display: flex;
+       justify-content: space-around;
+       align-self: center;
+       padding: 1rem;
+       p{
+           color: rgb(226, 224, 224);
+           font-weight: bold;
+           font-size: 1.5rem;
+       }
+       .icon{
+           display: flex;
+           justify-content: flex-start;
+           align-items: center;
+       }
+
+       }
+        }
+    }
+}
