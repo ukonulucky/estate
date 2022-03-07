@@ -6,14 +6,13 @@ function Home_section({ title, button, url, details, leftStyles}) {
 
   return (
       <div className={styles.wrapper}>
-      <div className={ leftStyles ===  "item_left" ? styles.item_left  : styles.item_order}>
+      <div className={ leftStyles ==  "item_left" ? styles.item_left  : styles.item_order}>
         <div className={styles.pic2}>
         <Image
           className={styles.pic}
             src={ url }
           alt="Second slide"
-            height="100"
-            width="100vw"
+           layout="fill"
           />
             <span>for let</span>
           

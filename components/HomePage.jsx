@@ -181,7 +181,7 @@ function HomePage() {
     setTimeout(() => {
       setIndex2(index2 < 20 ? index2 + 1 : 0);
      
-    }, 4150);
+    }, 4080);
   };
    indexSeter2();
   const indexSeter = () => {
