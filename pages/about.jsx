@@ -25,16 +25,12 @@ function About() {
             <div className={ styles.content4}>
             <div className={styles.item}>
                 <span>
-                 
-                  <hr />
                 </span>
                 <span>
                  
                   <AppsIcon />
                 </span>
                 <span>
-                 
-                  <hr />
                 </span>
               </div>
             
@@ -130,9 +126,11 @@ function About() {
          <div className={ styles.content2}>
                       <div className={styles.wrapper}>
                       <div className={styles.mission}>
-                              <span>
+                          <span>
                          <div className={ styles.pic }>
-                          <Image src="/images/icons/diamondIcon.png" width="40px" height="40px" about="logo" />
+                         <div className={ styles.innerPic}>
+                             <Image src="/images/icons/diamondIcon2.png" layout="fill" alt="logo" />
+                       </div>
                           </div>
                           </span>
                           <span>
@@ -147,7 +145,10 @@ function About() {
                       <div className={styles.vission}>
                               <span>
                                   <div className={ styles.pic }>
-                              <Image src="/images/icons/rocketIcon.png" width="40px" height="40px" priority="true" quality="100" alt="logo" />
+                  <div className={ styles.innerPic}>
+                  <Image src="/images/icons/rocketIcon3.png" layout="fill" alt="logo" />
+                                  </div>
+                              
                               </div>
                           </span>
                           <span>
@@ -171,22 +172,48 @@ function About() {
             Outlined below are the core values that drives our firm.
           </p>
           <div className={styles.value1}>
-            <div className="list">
+            <div className={styles.list}>
               <span>
-
+                <div className={styles.pic}>
+                  <Image src="/images/icons/bulbIcon.png" alt="logo" layout="fill"/>
+                </div>
               </span>
               <span>
-                <h2></h2>
+                <p>
+                Property Management.
+                </p>
               </span>
             </div>
-            <div className="list"></div>
-            <div className="list"></div>
+            <div className={styles.list}>
+            <span>
+                <div className={styles.pic}>
+                  <Image src="/images/icons/puzzleIcon.png" alt="logo" layout="fill"/>
+                </div>
+              </span>
+              <span>
+                <p>
+                Properties Sales and Marketing of affordable homes / properties
+                </p>
+              </span>
+            </div>
+            <div className={styles.list}>
+            <span>
+                <div className={styles.pic}>
+                  <Image src="/images/icons/globeIcon.png" alt="logo" layout="fill"/>
+                </div>
+              </span>
+              <span>
+                <p>
+                Property Maintenance
+                </p>
+              </span>
+            </div>
 
           </div>
           <div className={styles.value2}>
-            <div className="list"></div>
-            <div className="list"></div>
-            <div className="list"></div>
+            <div className={styles.list}></div>
+            <div className={styles.list}></div>
+            <div className={styles.list}></div>
 
           </div>
         </div>
